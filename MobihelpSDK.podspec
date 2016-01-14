@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.library             = 'FDMobihelpSDK'
   s.xcconfig            = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/MobihelpSDK/MobihelpSDK"'}
   s.preserve_paths      = 'MobihelpSDK/*'
-  s.resources           = ['MobihelpSDK/MHModel.bundle', 'MobihelpSDK/MHResources.bundle', 'MobihelpSDK/MHLocalization/en.lproj/MHLocalizable.strings'];
+  s.resources           = ['MobihelpSDK/MHModel.bundle', 'MobihelpSDK/MHResources.bundle', 'MobihelpSDK/MHLocalization/*'];
   s.documentation_url   = 'http://developer.freshdesk.com/mobihelp/ios/api'
 
 end
